@@ -1,48 +1,57 @@
-const logotext = "JOHN";
+const logotext = "Ram Lal";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Ram Lal",
+    description: "I’m Ramlal Cyber Security Student ",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Ramlal",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love hacking",
+        second: "I code exploits",
+        third: "I find bugs and secure website",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I'm a passionate cyber security professional, skilled in ethical hacking, web penetration testing, and dedicated to fortifying digital systems against threats. CEH certified, I'm committed to safeguarding online security.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about my self",
+    aboutme: "I am a dedicated cyber security enthusiast with a deep passion for safeguarding digital landscapes. My proficiency includes ethical hacking, web penetration testing, and a comprehensive understanding of cyber threats. Certified as an Ethical Hacker (CEH), I'm committed to proactively identifying vulnerabilities and ensuring the integrity of online systems. My knowledge spans a spectrum of cyber security domains, with a focus on web security",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Campus Ambassador",
+        where: "OVELOSSEC",
+        date: "Sep 2022-Aug 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Penetration Tester(Internship)",
+        where: "Secpy Community Pvt Ltd.",
+        date: "Nov 2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Ethical hacking and cyber crime investigation(Internship)",
+        where: "Slytherin EduTech Pvt. Ltd.",
+        date: "Oct 2022-Nov 2022",
+    },
+    {
+        jobtitle: "Security Engineer(Internship)",
+        where: "Virtually Testing Foundation",
+        date:"May 2022 - jun 2022",
     },
 ];
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 50,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "C Lang.",
+        value: 55,
+    },
+    {
+        name: "C++",
+        value: 55,
     },
     {
         name: "Javascript",
@@ -50,107 +59,102 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 40,
     },
     {
-        name: "Jquery",
+        name: "Linux",
         value: 85,
+    },
+    {
+        name: "PHP",
+        value: 65,
+    },
+    {
+        name: "Web Development",
+        value: 80,
+    },
+    {
+        name: "Web Penetration",
+        value: 90,
+    },
+    {
+        name: "Solidity",
+        value: 40,
+    },
+    {
+        name: "Hacking",
+        value: 90,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Penetration",
+        description: " Proficient in web penetration, I identify and secure vulnerabilities in online systems, ensuring robust cyber defenses. Skilled in CEH.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Ethical Hacking",
+        description: "As a  Ethical Hacker, I use my skills to proactively assess and secure digital systems, preserving their integrity and confidentiality.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Development",
+        description: "I excel in web development, adept in HTML, CSS, JavaScript, and PHP. Crafting engaging, user-friendly websites is my passion.",
     },
 ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Acquia HOF",
+        
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "US Migration HOF",
+       
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Certified Ethical Hacker (Internshala)",
+       
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Sainya Rakshatram (CTF)",
+        
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "EHE(Ethical Hacking Essential)",
+        
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Acknowledge by NCIIPCm RVDP",
+        
+    },
+    {
+        img: "https://picsum.photos/400/300/?grayscale",
+        description: "Certified appsec practitioner(CAP) ",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+   
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "excellentramlal2000@gmail.com",
+    YOUR_FONE: "787824xxxx",
+    description: "Jaipur ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_jotsvl6",
+    YOUR_TEMPLATE_ID: "template_43muye9",
+    YOUR_USER_ID: "LEVnCpKJxGjGgyRYT",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/ramvalyalal",
+    linkedin: "https://www.linkedin.com/in/valya-r-77714820b",
+    twitter: "https://twitter.com/ramvalyalal?t=oruTn0jKYJGCE-_zHBDH2w&s=09",
 };
 export {
     meta,
