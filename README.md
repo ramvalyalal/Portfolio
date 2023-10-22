@@ -5,7 +5,7 @@ A simple portfolio template for developer/designers built with React.
 
 ### [live preview](https://ramvalyalal.github.io/Portfolio/)
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ramvalyalal.github.io/Portfolio/)
+
 
 ### Features
 
